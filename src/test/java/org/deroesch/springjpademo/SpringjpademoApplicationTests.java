@@ -6,8 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class SpringjpademoApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void main() {
+        new SpringjpademoApplication();
+        SpringjpademoApplication.main(null);
+    }
 
 }
