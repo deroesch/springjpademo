@@ -9,7 +9,9 @@ class SpringjpademoApplicationTests {
     @Test
     void main() {
         new SpringjpademoApplication();
-        SpringjpademoApplication.main(null);
+
+        String[] args = {};
+        SpringjpademoApplication.main(args);
     }
 
 }
